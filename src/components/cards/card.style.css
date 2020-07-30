@@ -1,0 +1,36 @@
+.container {
+    margin: 50px, 0px;
+
+}
+
+.group-card {
+    display: inline-block;
+    align-items: center;
+    margin-left: 10px  !important; 
+}
+
+.card {
+    margin: 0 2% 0 4% !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .group-card {
+        display: inline-block;
+        align-items: center;
+        margin-left: 5px  !important; 
+    }
+    
+}
